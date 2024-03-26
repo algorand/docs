@@ -135,7 +135,7 @@ Before the transaction is considered valid, it must be signed by a private key. 
 ​
 <!-- ===JSSDK_TRANSACTION_PAYMENT_SIGN=== -->
 ```javascript
-const signedTxn = ptxn.signTxn(acct.privateKey);
+const signedTxn = ptxn.signTxn(acct.sk);
 ```
 [Snippet Source](https://github.com/algorand/js-algorand-sdk/blob/examples/examples/overview.ts#L34-L35)
 <!-- ===JSSDK_TRANSACTION_PAYMENT_SIGN=== -->
